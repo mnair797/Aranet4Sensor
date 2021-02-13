@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAEBBB1A25D84EDD0025F729 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEBBB1925D84EDD0025F729 /* AppDelegate.swift */; };
+		BAEBBB1C25D84EDD0025F729 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEBBB1B25D84EDD0025F729 /* SceneDelegate.swift */; };
+		BAEBBB1E25D84EDD0025F729 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEBBB1D25D84EDD0025F729 /* ViewController.swift */; };
+		BAEBBB2125D84EDD0025F729 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAEBBB1F25D84EDD0025F729 /* Main.storyboard */; };
+		BAEBBB2325D84EDD0025F729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAEBBB2225D84EDD0025F729 /* Assets.xcassets */; };
+		BAEBBB2625D84EDD0025F729 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAEBBB2425D84EDD0025F729 /* LaunchScreen.storyboard */; };
+		BAEBBB3125D84EDD0025F729 /* Aranet4SensorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEBBB3025D84EDD0025F729 /* Aranet4SensorTests.swift */; };
+		BAEBBB3C25D84EDE0025F729 /* Aranet4SensorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEBBB3B25D84EDE0025F729 /* Aranet4SensorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAEBBB2D25D84EDD0025F729 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAEBBB0E25D84EDD0025F729 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAEBBB1525D84EDD0025F729;
+			remoteInfo = Aranet4Sensor;
+		};
+		BAEBBB3825D84EDE0025F729 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAEBBB0E25D84EDD0025F729 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAEBBB1525D84EDD0025F729;
+			remoteInfo = Aranet4Sensor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAEBBB1625D84EDD0025F729 /* Aranet4Sensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aranet4Sensor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAEBBB1925D84EDD0025F729 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAEBBB1B25D84EDD0025F729 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BAEBBB1D25D84EDD0025F729 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BAEBBB2025D84EDD0025F729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAEBBB2225D84EDD0025F729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAEBBB2525D84EDD0025F729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAEBBB2725D84EDD0025F729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAEBBB2C25D84EDD0025F729 /* Aranet4SensorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Aranet4SensorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAEBBB3025D84EDD0025F729 /* Aranet4SensorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aranet4SensorTests.swift; sourceTree = "<group>"; };
+		BAEBBB3225D84EDD0025F729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAEBBB3725D84EDE0025F729 /* Aranet4SensorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Aranet4SensorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAEBBB3B25D84EDE0025F729 /* Aranet4SensorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aranet4SensorUITests.swift; sourceTree = "<group>"; };
+		BAEBBB3D25D84EDE0025F729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAEBBB1325D84EDD0025F729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAEBBB2925D84EDD0025F729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAEBBB3425D84EDE0025F729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAEBBB0D25D84EDC0025F729 = {
+			isa = PBXGroup;
+			children = (
+				BAEBBB1825D84EDD0025F729 /* Aranet4Sensor */,
+				BAEBBB2F25D84EDD0025F729 /* Aranet4SensorTests */,
+				BAEBBB3A25D84EDE0025F729 /* Aranet4SensorUITests */,
+				BAEBBB1725D84EDD0025F729 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAEBBB1725D84EDD0025F729 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAEBBB1625D84EDD0025F729 /* Aranet4Sensor.app */,
+				BAEBBB2C25D84EDD0025F729 /* Aranet4SensorTests.xctest */,
+				BAEBBB3725D84EDE0025F729 /* Aranet4SensorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAEBBB1825D84EDD0025F729 /* Aranet4Sensor */ = {
+			isa = PBXGroup;
+			children = (
+				BAEBBB1925D84EDD0025F729 /* AppDelegate.swift */,
+				BAEBBB1B25D84EDD0025F729 /* SceneDelegate.swift */,
+				BAEBBB1D25D84EDD0025F729 /* ViewController.swift */,
+				BAEBBB1F25D84EDD0025F729 /* Main.storyboard */,
+				BAEBBB2225D84EDD0025F729 /* Assets.xcassets */,
+				BAEBBB2425D84EDD0025F729 /* LaunchScreen.storyboard */,
+				BAEBBB2725D84EDD0025F729 /* Info.plist */,
+			);
+			path = Aranet4Sensor;
+			sourceTree = "<group>";
+		};
+		BAEBBB2F25D84EDD0025F729 /* Aranet4SensorTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAEBBB3025D84EDD0025F729 /* Aranet4SensorTests.swift */,
+				BAEBBB3225D84EDD0025F729 /* Info.plist */,
+			);
+			path = Aranet4SensorTests;
+			sourceTree = "<group>";
+		};
+		BAEBBB3A25D84EDE0025F729 /* Aranet4SensorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAEBBB3B25D84EDE0025F729 /* Aranet4SensorUITests.swift */,
+				BAEBBB3D25D84EDE0025F729 /* Info.plist */,
+			);
+			path = Aranet4SensorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAEBBB1525D84EDD0025F729 /* Aranet4Sensor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAEBBB4025D84EDE0025F729 /* Build configuration list for PBXNativeTarget "Aranet4Sensor" */;
+			buildPhases = (
+				BAEBBB1225D84EDD0025F729 /* Sources */,
+				BAEBBB1325D84EDD0025F729 /* Frameworks */,
+				BAEBBB1425D84EDD0025F729 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aranet4Sensor;
+			productName = Aranet4Sensor;
+			productReference = BAEBBB1625D84EDD0025F729 /* Aranet4Sensor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAEBBB2B25D84EDD0025F729 /* Aranet4SensorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAEBBB4325D84EDE0025F729 /* Build configuration list for PBXNativeTarget "Aranet4SensorTests" */;
+			buildPhases = (
+				BAEBBB2825D84EDD0025F729 /* Sources */,
+				BAEBBB2925D84EDD0025F729 /* Frameworks */,
+				BAEBBB2A25D84EDD0025F729 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAEBBB2E25D84EDD0025F729 /* PBXTargetDependency */,
+			);
+			name = Aranet4SensorTests;
+			productName = Aranet4SensorTests;
+			productReference = BAEBBB2C25D84EDD0025F729 /* Aranet4SensorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAEBBB3625D84EDE0025F729 /* Aranet4SensorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAEBBB4625D84EDE0025F729 /* Build configuration list for PBXNativeTarget "Aranet4SensorUITests" */;
+			buildPhases = (
+				BAEBBB3325D84EDE0025F729 /* Sources */,
+				BAEBBB3425D84EDE0025F729 /* Frameworks */,
+				BAEBBB3525D84EDE0025F729 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAEBBB3925D84EDE0025F729 /* PBXTargetDependency */,
+			);
+			name = Aranet4SensorUITests;
+			productName = Aranet4SensorUITests;
+			productReference = BAEBBB3725D84EDE0025F729 /* Aranet4SensorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAEBBB0E25D84EDD0025F729 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BAEBBB1525D84EDD0025F729 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					BAEBBB2B25D84EDD0025F729 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BAEBBB1525D84EDD0025F729;
+					};
+					BAEBBB3625D84EDE0025F729 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BAEBBB1525D84EDD0025F729;
+					};
+				};
+			};
+			buildConfigurationList = BAEBBB1125D84EDD0025F729 /* Build configuration list for PBXProject "Aranet4Sensor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAEBBB0D25D84EDC0025F729;
+			productRefGroup = BAEBBB1725D84EDD0025F729 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAEBBB1525D84EDD0025F729 /* Aranet4Sensor */,
+				BAEBBB2B25D84EDD0025F729 /* Aranet4SensorTests */,
+				BAEBBB3625D84EDE0025F729 /* Aranet4SensorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAEBBB1425D84EDD0025F729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEBBB2625D84EDD0025F729 /* LaunchScreen.storyboard in Resources */,
+				BAEBBB2325D84EDD0025F729 /* Assets.xcassets in Resources */,
+				BAEBBB2125D84EDD0025F729 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAEBBB2A25D84EDD0025F729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAEBBB3525D84EDE0025F729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAEBBB1225D84EDD0025F729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEBBB1E25D84EDD0025F729 /* ViewController.swift in Sources */,
+				BAEBBB1A25D84EDD0025F729 /* AppDelegate.swift in Sources */,
+				BAEBBB1C25D84EDD0025F729 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAEBBB2825D84EDD0025F729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEBBB3125D84EDD0025F729 /* Aranet4SensorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAEBBB3325D84EDE0025F729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEBBB3C25D84EDE0025F729 /* Aranet4SensorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAEBBB2E25D84EDD0025F729 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAEBBB1525D84EDD0025F729 /* Aranet4Sensor */;
+			targetProxy = BAEBBB2D25D84EDD0025F729 /* PBXContainerItemProxy */;
+		};
+		BAEBBB3925D84EDE0025F729 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAEBBB1525D84EDD0025F729 /* Aranet4Sensor */;
+			targetProxy = BAEBBB3825D84EDE0025F729 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAEBBB1F25D84EDD0025F729 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAEBBB2025D84EDD0025F729 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAEBBB2425D84EDD0025F729 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAEBBB2525D84EDD0025F729 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAEBBB3E25D84EDE0025F729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAEBBB3F25D84EDE0025F729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAEBBB4125D84EDE0025F729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M93K7WB6BB;
+				INFOPLIST_FILE = Aranet4Sensor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = world.aiclub.Aranet4Sensor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAEBBB4225D84EDE0025F729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M93K7WB6BB;
+				INFOPLIST_FILE = Aranet4Sensor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = world.aiclub.Aranet4Sensor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BAEBBB4425D84EDE0025F729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M93K7WB6BB;
+				INFOPLIST_FILE = Aranet4SensorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = world.aiclub.Aranet4SensorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aranet4Sensor.app/Aranet4Sensor";
+			};
+			name = Debug;
+		};
+		BAEBBB4525D84EDE0025F729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M93K7WB6BB;
+				INFOPLIST_FILE = Aranet4SensorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = world.aiclub.Aranet4SensorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aranet4Sensor.app/Aranet4Sensor";
+			};
+			name = Release;
+		};
+		BAEBBB4725D84EDE0025F729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M93K7WB6BB;
+				INFOPLIST_FILE = Aranet4SensorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = world.aiclub.Aranet4SensorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aranet4Sensor;
+			};
+			name = Debug;
+		};
+		BAEBBB4825D84EDE0025F729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M93K7WB6BB;
+				INFOPLIST_FILE = Aranet4SensorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = world.aiclub.Aranet4SensorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aranet4Sensor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAEBBB1125D84EDD0025F729 /* Build configuration list for PBXProject "Aranet4Sensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEBBB3E25D84EDE0025F729 /* Debug */,
+				BAEBBB3F25D84EDE0025F729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAEBBB4025D84EDE0025F729 /* Build configuration list for PBXNativeTarget "Aranet4Sensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEBBB4125D84EDE0025F729 /* Debug */,
+				BAEBBB4225D84EDE0025F729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAEBBB4325D84EDE0025F729 /* Build configuration list for PBXNativeTarget "Aranet4SensorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEBBB4425D84EDE0025F729 /* Debug */,
+				BAEBBB4525D84EDE0025F729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAEBBB4625D84EDE0025F729 /* Build configuration list for PBXNativeTarget "Aranet4SensorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEBBB4725D84EDE0025F729 /* Debug */,
+				BAEBBB4825D84EDE0025F729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAEBBB0E25D84EDD0025F729 /* Project object */;
+}
