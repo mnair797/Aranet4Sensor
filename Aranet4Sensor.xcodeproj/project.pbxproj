@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68E6085F4EE157204D7A8191 /* Pods_Aranet4SensorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411A82FB0129F0688000FEC9 /* Pods_Aranet4SensorTests.framework */; };
+		BA55C36825DA20E100227C63 /* GoogleSheetsIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55C36725DA20E100227C63 /* GoogleSheetsIntegration.swift */; };
+		BA55C36925DA20E100227C63 /* GoogleSheetsIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55C36725DA20E100227C63 /* GoogleSheetsIntegration.swift */; };
+		BA55C36A25DA20E100227C63 /* GoogleSheetsIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55C36725DA20E100227C63 /* GoogleSheetsIntegration.swift */; };
+		BA55C36F25DA212F00227C63 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55C36E25DA212F00227C63 /* LocationViewController.swift */; };
+		BA55C37025DA212F00227C63 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55C36E25DA212F00227C63 /* LocationViewController.swift */; };
+		BA55C37125DA212F00227C63 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55C36E25DA212F00227C63 /* LocationViewController.swift */; };
 		BAEBBB1A25D84EDD0025F729 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEBBB1925D84EDD0025F729 /* AppDelegate.swift */; };
 		BAEBBB1C25D84EDD0025F729 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEBBB1B25D84EDD0025F729 /* SceneDelegate.swift */; };
 		BAEBBB1E25D84EDD0025F729 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEBBB1D25D84EDD0025F729 /* ViewController.swift */; };
@@ -15,6 +22,11 @@
 		BAEBBB2625D84EDD0025F729 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAEBBB2425D84EDD0025F729 /* LaunchScreen.storyboard */; };
 		BAEBBB3125D84EDD0025F729 /* Aranet4SensorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEBBB3025D84EDD0025F729 /* Aranet4SensorTests.swift */; };
 		BAEBBB3C25D84EDE0025F729 /* Aranet4SensorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEBBB3B25D84EDE0025F729 /* Aranet4SensorUITests.swift */; };
+		BAEBBB4D25D850880025F729 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAEBBB4C25D850880025F729 /* GoogleService-Info.plist */; };
+		BAEBBB4E25D850880025F729 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAEBBB4C25D850880025F729 /* GoogleService-Info.plist */; };
+		BAEBBB4F25D850880025F729 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAEBBB4C25D850880025F729 /* GoogleService-Info.plist */; };
+		BCFC22DC6F41EED5C3245CC6 /* Pods_Aranet4Sensor_Aranet4SensorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF0575DE60D630936A40094 /* Pods_Aranet4Sensor_Aranet4SensorUITests.framework */; };
+		EAF90AE7285E6DBD22096FDD /* Pods_Aranet4Sensor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC1289D9F6A2B2A22982167 /* Pods_Aranet4Sensor.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AF0575DE60D630936A40094 /* Pods_Aranet4Sensor_Aranet4SensorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aranet4Sensor_Aranet4SensorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		411A82FB0129F0688000FEC9 /* Pods_Aranet4SensorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aranet4SensorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F52950C75C2FCDC0BB1B939 /* Pods-Aranet4Sensor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aranet4Sensor.release.xcconfig"; path = "Target Support Files/Pods-Aranet4Sensor/Pods-Aranet4Sensor.release.xcconfig"; sourceTree = "<group>"; };
+		5D742741642C86A63D7E3446 /* Pods-Aranet4Sensor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aranet4Sensor.debug.xcconfig"; path = "Target Support Files/Pods-Aranet4Sensor/Pods-Aranet4Sensor.debug.xcconfig"; sourceTree = "<group>"; };
+		634A60AB84D611B5A3BF0977 /* Pods-Aranet4SensorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aranet4SensorTests.release.xcconfig"; path = "Target Support Files/Pods-Aranet4SensorTests/Pods-Aranet4SensorTests.release.xcconfig"; sourceTree = "<group>"; };
+		9920031E9A786686D309EDDA /* Pods-Aranet4Sensor-Aranet4SensorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aranet4Sensor-Aranet4SensorUITests.debug.xcconfig"; path = "Target Support Files/Pods-Aranet4Sensor-Aranet4SensorUITests/Pods-Aranet4Sensor-Aranet4SensorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AAC1289D9F6A2B2A22982167 /* Pods_Aranet4Sensor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aranet4Sensor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA55C36725DA20E100227C63 /* GoogleSheetsIntegration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSheetsIntegration.swift; sourceTree = "<group>"; };
+		BA55C36E25DA212F00227C63 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		BAEBBB1625D84EDD0025F729 /* Aranet4Sensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aranet4Sensor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAEBBB1925D84EDD0025F729 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAEBBB1B25D84EDD0025F729 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +70,9 @@
 		BAEBBB3725D84EDE0025F729 /* Aranet4SensorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Aranet4SensorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAEBBB3B25D84EDE0025F729 /* Aranet4SensorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aranet4SensorUITests.swift; sourceTree = "<group>"; };
 		BAEBBB3D25D84EDE0025F729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAEBBB4C25D850880025F729 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E5883761F33DF1B439ACC03F /* Pods-Aranet4SensorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aranet4SensorTests.debug.xcconfig"; path = "Target Support Files/Pods-Aranet4SensorTests/Pods-Aranet4SensorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F024B537A3B88CD38C781690 /* Pods-Aranet4Sensor-Aranet4SensorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aranet4Sensor-Aranet4SensorUITests.release.xcconfig"; path = "Target Support Files/Pods-Aranet4Sensor-Aranet4SensorUITests/Pods-Aranet4Sensor-Aranet4SensorUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAF90AE7285E6DBD22096FDD /* Pods_Aranet4Sensor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68E6085F4EE157204D7A8191 /* Pods_Aranet4SensorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +96,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCFC22DC6F41EED5C3245CC6 /* Pods_Aranet4Sensor_Aranet4SensorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03358B2D6F3A902E11097A6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAC1289D9F6A2B2A22982167 /* Pods_Aranet4Sensor.framework */,
+				0AF0575DE60D630936A40094 /* Pods_Aranet4Sensor_Aranet4SensorUITests.framework */,
+				411A82FB0129F0688000FEC9 /* Pods_Aranet4SensorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E626671D641E2C6EE91DE93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D742741642C86A63D7E3446 /* Pods-Aranet4Sensor.debug.xcconfig */,
+				4F52950C75C2FCDC0BB1B939 /* Pods-Aranet4Sensor.release.xcconfig */,
+				9920031E9A786686D309EDDA /* Pods-Aranet4Sensor-Aranet4SensorUITests.debug.xcconfig */,
+				F024B537A3B88CD38C781690 /* Pods-Aranet4Sensor-Aranet4SensorUITests.release.xcconfig */,
+				E5883761F33DF1B439ACC03F /* Pods-Aranet4SensorTests.debug.xcconfig */,
+				634A60AB84D611B5A3BF0977 /* Pods-Aranet4SensorTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BAEBBB0D25D84EDC0025F729 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +133,8 @@
 				BAEBBB2F25D84EDD0025F729 /* Aranet4SensorTests */,
 				BAEBBB3A25D84EDE0025F729 /* Aranet4SensorUITests */,
 				BAEBBB1725D84EDD0025F729 /* Products */,
+				0E626671D641E2C6EE91DE93 /* Pods */,
+				03358B2D6F3A902E11097A6A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +158,9 @@
 				BAEBBB2225D84EDD0025F729 /* Assets.xcassets */,
 				BAEBBB2425D84EDD0025F729 /* LaunchScreen.storyboard */,
 				BAEBBB2725D84EDD0025F729 /* Info.plist */,
+				BAEBBB4C25D850880025F729 /* GoogleService-Info.plist */,
+				BA55C36725DA20E100227C63 /* GoogleSheetsIntegration.swift */,
+				BA55C36E25DA212F00227C63 /* LocationViewController.swift */,
 			);
 			path = Aranet4Sensor;
 			sourceTree = "<group>";
@@ -135,6 +190,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAEBBB4025D84EDE0025F729 /* Build configuration list for PBXNativeTarget "Aranet4Sensor" */;
 			buildPhases = (
+				43A5AB8D84F2291EF9FFF966 /* [CP] Check Pods Manifest.lock */,
 				BAEBBB1225D84EDD0025F729 /* Sources */,
 				BAEBBB1325D84EDD0025F729 /* Frameworks */,
 				BAEBBB1425D84EDD0025F729 /* Resources */,
@@ -152,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAEBBB4325D84EDE0025F729 /* Build configuration list for PBXNativeTarget "Aranet4SensorTests" */;
 			buildPhases = (
+				C9743EDD69602B31A2341B12 /* [CP] Check Pods Manifest.lock */,
 				BAEBBB2825D84EDD0025F729 /* Sources */,
 				BAEBBB2925D84EDD0025F729 /* Frameworks */,
 				BAEBBB2A25D84EDD0025F729 /* Resources */,
@@ -170,6 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAEBBB4625D84EDE0025F729 /* Build configuration list for PBXNativeTarget "Aranet4SensorUITests" */;
 			buildPhases = (
+				61DB55EE46CF1DB005C68E87 /* [CP] Check Pods Manifest.lock */,
 				BAEBBB3325D84EDE0025F729 /* Sources */,
 				BAEBBB3425D84EDE0025F729 /* Frameworks */,
 				BAEBBB3525D84EDE0025F729 /* Resources */,
@@ -232,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAEBBB2625D84EDD0025F729 /* LaunchScreen.storyboard in Resources */,
+				BAEBBB4D25D850880025F729 /* GoogleService-Info.plist in Resources */,
 				BAEBBB2325D84EDD0025F729 /* Assets.xcassets in Resources */,
 				BAEBBB2125D84EDD0025F729 /* Main.storyboard in Resources */,
 			);
@@ -241,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAEBBB4E25D850880025F729 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,17 +308,89 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAEBBB4F25D850880025F729 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43A5AB8D84F2291EF9FFF966 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aranet4Sensor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61DB55EE46CF1DB005C68E87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aranet4Sensor-Aranet4SensorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9743EDD69602B31A2341B12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aranet4SensorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BAEBBB1225D84EDD0025F729 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA55C36F25DA212F00227C63 /* LocationViewController.swift in Sources */,
 				BAEBBB1E25D84EDD0025F729 /* ViewController.swift in Sources */,
+				BA55C36825DA20E100227C63 /* GoogleSheetsIntegration.swift in Sources */,
 				BAEBBB1A25D84EDD0025F729 /* AppDelegate.swift in Sources */,
 				BAEBBB1C25D84EDD0025F729 /* SceneDelegate.swift in Sources */,
 			);
@@ -268,7 +400,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA55C37025DA212F00227C63 /* LocationViewController.swift in Sources */,
 				BAEBBB3125D84EDD0025F729 /* Aranet4SensorTests.swift in Sources */,
+				BA55C36925DA20E100227C63 /* GoogleSheetsIntegration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +410,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA55C37125DA212F00227C63 /* LocationViewController.swift in Sources */,
 				BAEBBB3C25D84EDE0025F729 /* Aranet4SensorUITests.swift in Sources */,
+				BA55C36A25DA20E100227C63 /* GoogleSheetsIntegration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +569,7 @@
 		};
 		BAEBBB4125D84EDE0025F729 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D742741642C86A63D7E3446 /* Pods-Aranet4Sensor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +589,7 @@
 		};
 		BAEBBB4225D84EDE0025F729 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F52950C75C2FCDC0BB1B939 /* Pods-Aranet4Sensor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +609,7 @@
 		};
 		BAEBBB4425D84EDE0025F729 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5883761F33DF1B439ACC03F /* Pods-Aranet4SensorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +632,7 @@
 		};
 		BAEBBB4525D84EDE0025F729 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 634A60AB84D611B5A3BF0977 /* Pods-Aranet4SensorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +655,7 @@
 		};
 		BAEBBB4725D84EDE0025F729 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9920031E9A786686D309EDDA /* Pods-Aranet4Sensor-Aranet4SensorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +676,7 @@
 		};
 		BAEBBB4825D84EDE0025F729 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F024B537A3B88CD38C781690 /* Pods-Aranet4Sensor-Aranet4SensorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
