@@ -160,6 +160,7 @@ extension Aranet4ViewController: CBPeripheralDelegate {
         let t1 = baToInt(byteArray[2],byteArray[3])
         let t2 = Float(t1)/20
         let t = (t2*9/5) + 32
+        // let t3 = (t2-32)*5/9
         let p = (baToInt(byteArray[4],byteArray[5]) )/10
         let h = baToInt(byteArray[6],0)
         let b = baToInt(byteArray[7],0)
@@ -202,3 +203,5 @@ extension Aranet4ViewController: CBPeripheralDelegate {
     }
     
 }
+
+

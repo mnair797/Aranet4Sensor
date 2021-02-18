@@ -106,3 +106,12 @@ class GoogleSheetsIntegration {
     }
     
 }
+
+/*
+ static func recordFeedback(_ s: String) {
+ let db=Firestore.firestore()
+ db.collection(collectionName).addDocument(data: ["currentDate":Date(),
+ "recordType":feedbackRecordType,
+ "comments":s])
+ }
+ */

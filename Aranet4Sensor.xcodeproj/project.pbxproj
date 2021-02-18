@@ -26,7 +26,6 @@
 		BAEBBB4E25D850880025F729 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAEBBB4C25D850880025F729 /* GoogleService-Info.plist */; };
 		BAEBBB4F25D850880025F729 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAEBBB4C25D850880025F729 /* GoogleService-Info.plist */; };
 		BCFC22DC6F41EED5C3245CC6 /* Pods_Aranet4Sensor_Aranet4SensorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF0575DE60D630936A40094 /* Pods_Aranet4Sensor_Aranet4SensorUITests.framework */; };
-		EAF90AE7285E6DBD22096FDD /* Pods_Aranet4Sensor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC1289D9F6A2B2A22982167 /* Pods_Aranet4Sensor.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,7 +79,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAF90AE7285E6DBD22096FDD /* Pods_Aranet4Sensor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
