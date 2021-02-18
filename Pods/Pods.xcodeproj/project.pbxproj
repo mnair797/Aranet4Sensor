@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08C777418BCCC100F29DFD4E21DE61C3 /* Pods-Aranet4Sensor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE2C91FB5B4E35CE934731E4AC6EFEA /* Pods-Aranet4Sensor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		236DD0878268C3C47440EC4B5B46D266 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2E827513AA92F351B5A18F65D599AB4A /* Pods-Aranet4Sensor-Aranet4SensorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5AAE34C73D2AFC611268B3DABED10D /* Pods-Aranet4Sensor-Aranet4SensorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB8086DDC0D4A9CC96ACE900125305D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C43467EF11F5F11FC43A7FDFB5349EDF /* Pods-Aranet4Sensor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAED8FA82D9E17C817B312F7AE3035F4 /* Pods-Aranet4Sensor-dummy.m */; };
+		D1CE2F81DA316282D4A4AC8E2AC57582 /* Pods-Aranet4Sensor-Aranet4SensorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0786E0ED5648F5CE1755C6E2293E5D /* Pods-Aranet4Sensor-Aranet4SensorUITests-dummy.m */; };
+		EE8C50106C86C614A6485A75175C2B43 /* Pods-Aranet4SensorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6518499C5259659FEFBA42384E6B92 /* Pods-Aranet4SensorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3F793CC9963AE68A32CAE1A9C3A1481 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F4190F7AA6B30B74FFBD2B77B872B480 /* Pods-Aranet4SensorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E4744A3995F98E99770C98DAC704B9 /* Pods-Aranet4SensorTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3705281E3CB98983E89171627C2D1298 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D48351FB26E19D52815BD43C86964563;
+			remoteInfo = "Pods-Aranet4Sensor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08FF2386239C98C07739FA293B2AA014 /* Pods-Aranet4Sensor-Aranet4SensorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Aranet4Sensor-Aranet4SensorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		158F97BC74814B1BC7DD70ADD7A93AD0 /* Pods-Aranet4SensorTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Aranet4SensorTests-Info.plist"; sourceTree = "<group>"; };
+		1B31D6D2337B69D70CFF00965601A797 /* Pods-Aranet4Sensor-Aranet4SensorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Aranet4Sensor-Aranet4SensorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1EDF8436468FBDCF678C0F675F0BEEB8 /* Pods-Aranet4Sensor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Aranet4Sensor.modulemap"; sourceTree = "<group>"; };
+		202075EEE60D56FCB73827B173E57820 /* Pods-Aranet4Sensor-Aranet4SensorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Aranet4Sensor-Aranet4SensorUITests.modulemap"; sourceTree = "<group>"; };
+		32CF53ABB4059542689DFAEE8810E606 /* Pods-Aranet4Sensor-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Aranet4Sensor-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F6518499C5259659FEFBA42384E6B92 /* Pods-Aranet4SensorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Aranet4SensorTests-umbrella.h"; sourceTree = "<group>"; };
+		45B70229ED12722BA45412724EB8446D /* Pods_Aranet4Sensor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Aranet4Sensor.framework; path = "Pods-Aranet4Sensor.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48306D5D6E7541DF8D96D035608D39A6 /* Pods-Aranet4SensorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Aranet4SensorTests.release.xcconfig"; sourceTree = "<group>"; };
+		634DD8016CC84BA4D58AA380C41AE909 /* Pods-Aranet4Sensor-Aranet4SensorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Aranet4Sensor-Aranet4SensorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7A6CB34073A4A46B3D65512912BD95AC /* Pods-Aranet4Sensor-Aranet4SensorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Aranet4Sensor-Aranet4SensorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8ADA1D92E2619379481DB9F3CDAAC086 /* Pods_Aranet4SensorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Aranet4SensorTests.framework; path = "Pods-Aranet4SensorTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		935755187147CAC36E6F571816B2F5C3 /* Pods-Aranet4SensorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Aranet4SensorTests.modulemap"; sourceTree = "<group>"; };
+		9556B7473FDC0A60E19BD3DDAF64A709 /* Pods-Aranet4Sensor-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Aranet4Sensor-acknowledgements.markdown"; sourceTree = "<group>"; };
+		97C36CDFC44735A943A1DECC30C228B7 /* Pods-Aranet4SensorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Aranet4SensorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AAE2C91FB5B4E35CE934731E4AC6EFEA /* Pods-Aranet4Sensor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Aranet4Sensor-umbrella.h"; sourceTree = "<group>"; };
+		AAED8FA82D9E17C817B312F7AE3035F4 /* Pods-Aranet4Sensor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Aranet4Sensor-dummy.m"; sourceTree = "<group>"; };
+		AB0786E0ED5648F5CE1755C6E2293E5D /* Pods-Aranet4Sensor-Aranet4SensorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Aranet4Sensor-Aranet4SensorUITests-dummy.m"; sourceTree = "<group>"; };
+		AC1F7D1C02BAE35CFE207B88FE16D419 /* Pods-Aranet4Sensor-Aranet4SensorUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Aranet4Sensor-Aranet4SensorUITests-Info.plist"; sourceTree = "<group>"; };
+		C1E4744A3995F98E99770C98DAC704B9 /* Pods-Aranet4SensorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Aranet4SensorTests-dummy.m"; sourceTree = "<group>"; };
+		C7821BE887EB6F0964085B459B16EAA3 /* Pods-Aranet4Sensor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Aranet4Sensor-Info.plist"; sourceTree = "<group>"; };
+		CAFCD485057D1ACFD4B2E3577359BD3F /* Pods-Aranet4SensorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Aranet4SensorTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CF6EDC85B7238A7E03C92CEB5E5B0C2A /* Pods-Aranet4Sensor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Aranet4Sensor.debug.xcconfig"; sourceTree = "<group>"; };
+		D1E59A671C04208F3E68785843C10486 /* Pods-Aranet4Sensor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Aranet4Sensor.release.xcconfig"; sourceTree = "<group>"; };
+		D68156CB7393D7A0B7616F4AF3E5AF1D /* Pods_Aranet4Sensor_Aranet4SensorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Aranet4Sensor_Aranet4SensorUITests.framework; path = "Pods-Aranet4Sensor-Aranet4SensorUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5AAE34C73D2AFC611268B3DABED10D /* Pods-Aranet4Sensor-Aranet4SensorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Aranet4Sensor-Aranet4SensorUITests-umbrella.h"; sourceTree = "<group>"; };
+		DC9C7B2BE163A92025DA0CADFA999588 /* Pods-Aranet4SensorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Aranet4SensorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03593CA7DFEB38714167B609ABD17120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				236DD0878268C3C47440EC4B5B46D266 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B41CEF735A72428BB2BFCD9EC98E5E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F793CC9963AE68A32CAE1A9C3A1481 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E72C0CB7BE1E1F6EF16AC172611B71F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8086DDC0D4A9CC96ACE900125305D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16C57485918E5D0690E1AC19502C2F47 /* Pods-Aranet4Sensor-Aranet4SensorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				202075EEE60D56FCB73827B173E57820 /* Pods-Aranet4Sensor-Aranet4SensorUITests.modulemap */,
+				08FF2386239C98C07739FA293B2AA014 /* Pods-Aranet4Sensor-Aranet4SensorUITests-acknowledgements.markdown */,
+				1B31D6D2337B69D70CFF00965601A797 /* Pods-Aranet4Sensor-Aranet4SensorUITests-acknowledgements.plist */,
+				AB0786E0ED5648F5CE1755C6E2293E5D /* Pods-Aranet4Sensor-Aranet4SensorUITests-dummy.m */,
+				AC1F7D1C02BAE35CFE207B88FE16D419 /* Pods-Aranet4Sensor-Aranet4SensorUITests-Info.plist */,
+				DC5AAE34C73D2AFC611268B3DABED10D /* Pods-Aranet4Sensor-Aranet4SensorUITests-umbrella.h */,
+				7A6CB34073A4A46B3D65512912BD95AC /* Pods-Aranet4Sensor-Aranet4SensorUITests.debug.xcconfig */,
+				634DD8016CC84BA4D58AA380C41AE909 /* Pods-Aranet4Sensor-Aranet4SensorUITests.release.xcconfig */,
+			);
+			name = "Pods-Aranet4Sensor-Aranet4SensorUITests";
+			path = "Target Support Files/Pods-Aranet4Sensor-Aranet4SensorUITests";
+			sourceTree = "<group>";
+		};
+		42CA77E4A77EC36B7108B07C904A66E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45B70229ED12722BA45412724EB8446D /* Pods_Aranet4Sensor.framework */,
+				D68156CB7393D7A0B7616F4AF3E5AF1D /* Pods_Aranet4Sensor_Aranet4SensorUITests.framework */,
+				8ADA1D92E2619379481DB9F3CDAAC086 /* Pods_Aranet4SensorTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8E0200C2D80E9A835C1E176EFEEFE2F1 /* Pods-Aranet4Sensor */ = {
+			isa = PBXGroup;
+			children = (
+				1EDF8436468FBDCF678C0F675F0BEEB8 /* Pods-Aranet4Sensor.modulemap */,
+				9556B7473FDC0A60E19BD3DDAF64A709 /* Pods-Aranet4Sensor-acknowledgements.markdown */,
+				32CF53ABB4059542689DFAEE8810E606 /* Pods-Aranet4Sensor-acknowledgements.plist */,
+				AAED8FA82D9E17C817B312F7AE3035F4 /* Pods-Aranet4Sensor-dummy.m */,
+				C7821BE887EB6F0964085B459B16EAA3 /* Pods-Aranet4Sensor-Info.plist */,
+				AAE2C91FB5B4E35CE934731E4AC6EFEA /* Pods-Aranet4Sensor-umbrella.h */,
+				CF6EDC85B7238A7E03C92CEB5E5B0C2A /* Pods-Aranet4Sensor.debug.xcconfig */,
+				D1E59A671C04208F3E68785843C10486 /* Pods-Aranet4Sensor.release.xcconfig */,
+			);
+			name = "Pods-Aranet4Sensor";
+			path = "Target Support Files/Pods-Aranet4Sensor";
+			sourceTree = "<group>";
+		};
+		B926B677F81605933486235C8FBE4485 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E0200C2D80E9A835C1E176EFEEFE2F1 /* Pods-Aranet4Sensor */,
+				16C57485918E5D0690E1AC19502C2F47 /* Pods-Aranet4Sensor-Aranet4SensorUITests */,
+				C1911B5B3EB6430D0C2F29BE4C723010 /* Pods-Aranet4SensorTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C1911B5B3EB6430D0C2F29BE4C723010 /* Pods-Aranet4SensorTests */ = {
+			isa = PBXGroup;
+			children = (
+				935755187147CAC36E6F571816B2F5C3 /* Pods-Aranet4SensorTests.modulemap */,
+				DC9C7B2BE163A92025DA0CADFA999588 /* Pods-Aranet4SensorTests-acknowledgements.markdown */,
+				CAFCD485057D1ACFD4B2E3577359BD3F /* Pods-Aranet4SensorTests-acknowledgements.plist */,
+				C1E4744A3995F98E99770C98DAC704B9 /* Pods-Aranet4SensorTests-dummy.m */,
+				158F97BC74814B1BC7DD70ADD7A93AD0 /* Pods-Aranet4SensorTests-Info.plist */,
+				3F6518499C5259659FEFBA42384E6B92 /* Pods-Aranet4SensorTests-umbrella.h */,
+				97C36CDFC44735A943A1DECC30C228B7 /* Pods-Aranet4SensorTests.debug.xcconfig */,
+				48306D5D6E7541DF8D96D035608D39A6 /* Pods-Aranet4SensorTests.release.xcconfig */,
+			);
+			name = "Pods-Aranet4SensorTests";
+			path = "Target Support Files/Pods-Aranet4SensorTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				42CA77E4A77EC36B7108B07C904A66E7 /* Products */,
+				B926B677F81605933486235C8FBE4485 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		64C0A53FA51BCF84480C2F0893C8DB1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8C50106C86C614A6485A75175C2B43 /* Pods-Aranet4SensorTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76D4D006539F948E0D86D0FEDAB29EFF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08C777418BCCC100F29DFD4E21DE61C3 /* Pods-Aranet4Sensor-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		784C70BE4E5CC523A4021052DC05A965 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E827513AA92F351B5A18F65D599AB4A /* Pods-Aranet4Sensor-Aranet4SensorUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		176E087DB9E614B72E25433EFEF3CD7B /* Pods-Aranet4Sensor-Aranet4SensorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A44038BC905283C5EF3DCA0C29B96131 /* Build configuration list for PBXNativeTarget "Pods-Aranet4Sensor-Aranet4SensorUITests" */;
+			buildPhases = (
+				784C70BE4E5CC523A4021052DC05A965 /* Headers */,
+				76823B05AA763B178F87354CFB43BE71 /* Sources */,
+				03593CA7DFEB38714167B609ABD17120 /* Frameworks */,
+				136805F175C0392DA53502C1600F0C2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Aranet4Sensor-Aranet4SensorUITests";
+			productName = "Pods-Aranet4Sensor-Aranet4SensorUITests";
+			productReference = D68156CB7393D7A0B7616F4AF3E5AF1D /* Pods_Aranet4Sensor_Aranet4SensorUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5FE2DA31785E5EFC57319AE8FA147A97 /* Pods-Aranet4SensorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FF2365750E854001093D5978E3DDE2 /* Build configuration list for PBXNativeTarget "Pods-Aranet4SensorTests" */;
+			buildPhases = (
+				64C0A53FA51BCF84480C2F0893C8DB1B /* Headers */,
+				1906145FCC2DDDC4DF31CD3D3077AA34 /* Sources */,
+				8B41CEF735A72428BB2BFCD9EC98E5E4 /* Frameworks */,
+				886168BA99E932D8B56F0664C2CF36B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B32AF6BE73366E1D6E099496BC41A53 /* PBXTargetDependency */,
+			);
+			name = "Pods-Aranet4SensorTests";
+			productName = "Pods-Aranet4SensorTests";
+			productReference = 8ADA1D92E2619379481DB9F3CDAAC086 /* Pods_Aranet4SensorTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D48351FB26E19D52815BD43C86964563 /* Pods-Aranet4Sensor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A88ECF093E9CC9AC45F8A46D2BB7079 /* Build configuration list for PBXNativeTarget "Pods-Aranet4Sensor" */;
+			buildPhases = (
+				76D4D006539F948E0D86D0FEDAB29EFF /* Headers */,
+				FB5511CBFFF7C9C0C5C2BFBC1499D3CE /* Sources */,
+				E72C0CB7BE1E1F6EF16AC172611B71F5 /* Frameworks */,
+				56E84C8FEE6FDBC62F957C97DB48061D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Aranet4Sensor";
+			productName = "Pods-Aranet4Sensor";
+			productReference = 45B70229ED12722BA45412724EB8446D /* Pods_Aranet4Sensor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 42CA77E4A77EC36B7108B07C904A66E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D48351FB26E19D52815BD43C86964563 /* Pods-Aranet4Sensor */,
+				176E087DB9E614B72E25433EFEF3CD7B /* Pods-Aranet4Sensor-Aranet4SensorUITests */,
+				5FE2DA31785E5EFC57319AE8FA147A97 /* Pods-Aranet4SensorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		136805F175C0392DA53502C1600F0C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56E84C8FEE6FDBC62F957C97DB48061D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886168BA99E932D8B56F0664C2CF36B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1906145FCC2DDDC4DF31CD3D3077AA34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4190F7AA6B30B74FFBD2B77B872B480 /* Pods-Aranet4SensorTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76823B05AA763B178F87354CFB43BE71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1CE2F81DA316282D4A4AC8E2AC57582 /* Pods-Aranet4Sensor-Aranet4SensorUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5511CBFFF7C9C0C5C2BFBC1499D3CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43467EF11F5F11FC43A7FDFB5349EDF /* Pods-Aranet4Sensor-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B32AF6BE73366E1D6E099496BC41A53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Aranet4Sensor";
+			target = D48351FB26E19D52815BD43C86964563 /* Pods-Aranet4Sensor */;
+			targetProxy = 3705281E3CB98983E89171627C2D1298 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BA4780395D32BB49C752D99D70B3BE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A6CB34073A4A46B3D65512912BD95AC /* Pods-Aranet4Sensor-Aranet4SensorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Aranet4Sensor-Aranet4SensorUITests/Pods-Aranet4Sensor-Aranet4SensorUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Aranet4Sensor-Aranet4SensorUITests/Pods-Aranet4Sensor-Aranet4SensorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BAECA98E7D1DA2CB3E63152EA167109C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 634DD8016CC84BA4D58AA380C41AE909 /* Pods-Aranet4Sensor-Aranet4SensorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Aranet4Sensor-Aranet4SensorUITests/Pods-Aranet4Sensor-Aranet4SensorUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Aranet4Sensor-Aranet4SensorUITests/Pods-Aranet4Sensor-Aranet4SensorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB2871E9DB25EE740E7EB35AC372B8E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1E59A671C04208F3E68785843C10486 /* Pods-Aranet4Sensor.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Aranet4Sensor/Pods-Aranet4Sensor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Aranet4Sensor/Pods-Aranet4Sensor.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5A679506B40A8F42B28666E89DA4B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF6EDC85B7238A7E03C92CEB5E5B0C2A /* Pods-Aranet4Sensor.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Aranet4Sensor/Pods-Aranet4Sensor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Aranet4Sensor/Pods-Aranet4Sensor.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DCDC7A4FD99E6D277E33864068A4A495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48306D5D6E7541DF8D96D035608D39A6 /* Pods-Aranet4SensorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Aranet4SensorTests/Pods-Aranet4SensorTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Aranet4SensorTests/Pods-Aranet4SensorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB1E79EC8EFD4F65EB20D5088A6E4FD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97C36CDFC44735A943A1DECC30C228B7 /* Pods-Aranet4SensorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Aranet4SensorTests/Pods-Aranet4SensorTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Aranet4SensorTests/Pods-Aranet4SensorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A88ECF093E9CC9AC45F8A46D2BB7079 /* Build configuration list for PBXNativeTarget "Pods-Aranet4Sensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A679506B40A8F42B28666E89DA4B3A /* Debug */,
+				BB2871E9DB25EE740E7EB35AC372B8E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FF2365750E854001093D5978E3DDE2 /* Build configuration list for PBXNativeTarget "Pods-Aranet4SensorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1E79EC8EFD4F65EB20D5088A6E4FD5 /* Debug */,
+				DCDC7A4FD99E6D277E33864068A4A495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A44038BC905283C5EF3DCA0C29B96131 /* Build configuration list for PBXNativeTarget "Pods-Aranet4Sensor-Aranet4SensorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4780395D32BB49C752D99D70B3BE9C /* Debug */,
+				BAECA98E7D1DA2CB3E63152EA167109C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
